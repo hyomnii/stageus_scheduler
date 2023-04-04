@@ -1,0 +1,101 @@
+/* default */
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: "나눔스퀘어";
+}
+
+a {
+    text-decoration: none;
+    color: #4f4f4fe0
+}
+
+#logo {
+    display: block;
+    width: 9%;
+    margin: 0 auto;
+}
+
+#cont {
+    height: 95%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2%;
+}
+
+/* page */
+
+#login_box {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+#login_id, #login_pw {
+    width: 18%;
+    height: 15%;
+    margin-bottom: 9px;
+    background-color: #FAFAFA;
+    border: 0.2px solid #8f8b8b9a;
+    outline: 0;
+    border-radius: 2px;
+    color: #4f4f4fe0;
+    font-size: 14px;
+}
+
+#login_bt {
+    width: 10%;
+    height: 14%;
+    margin-top: 5px;
+    background-color: #2C7BF8;
+    border: 1px solid #2C7BF8;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: "나눔스퀘어";
+}
+
+#find_box {
+    display: inline-block;
+    width: 17%;
+    text-align: center;
+}
+
+#find_id {
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+    font-size: 15px;
+}
+
+#find_pw {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    font-size: 15px;
+}
+
+#line {
+    border: 1px solid #4f4f4f8f;
+    width: 25%;
+    margin: 10px 0;
+}
+
+#sign_up {
+    width: 18%;
+    height: 6%;
+    margin-top: 5px;
+    background-color: #2C7BF8;
+    border: 1px solid #2C7BF8;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: "나눔스퀘어";
+}

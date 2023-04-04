@@ -1,0 +1,72 @@
+/* default */
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: "나눔스퀘어";
+}
+
+a {
+    text-decoration: none;
+    color: #4f4f4fe0
+}
+
+#logo {
+    display: block;
+    width: 9%;
+    margin: 0 auto;
+}
+
+#cont {
+    height: 95%;
+    width: 100%;
+    padding-top: 2%;
+}
+
+h2 {
+    margin-left: 3%;
+}
+
+#line {
+    border: 1px solid #4f4f4f8f;
+    width: 95%;
+    margin: 0 2%;
+}
+
+.input {
+    width: 45%;
+    height: 50px;
+    margin: 5% 0;
+    background-color: #FAFAFA;
+    border: 0.2px solid #8f8b8b9a;
+    outline: 0;
+    border-radius: 2px;
+    color: #4f4f4fe0;
+    font-size: 14px;
+}
+
+/* page */
+
+#cont_box {
+    height: 60%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3% 0 0 -3%;
+}
+
+#find_id_bt {
+    width: 30%;
+    height: 50px;
+    display: block;
+    margin: auto;
+    background-color: #2C7BF8;
+    border: 1px solid #2C7BF8;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: "나눔스퀘어";
+    text-align: center;
+}
